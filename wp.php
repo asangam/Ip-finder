@@ -12,11 +12,11 @@ require('ip.php');
 	<style>
 		.btn
 		{
-			margin-top:20px;
+			margin-top:25px;
 		}
 		.gi-5x
 		{
-			font-size: 30px;
+			font-size: 31px;
 		}
 		.alert
 		{
@@ -40,7 +40,7 @@ require('ip.php');
 		
 		<input type="submit" class="btn btn-primary btn-lg" value=" <?php echo $ip_address; ?>">
 		<br> <br>
-		 <h3>Your Device Information</h3>
+		 <h3>Your Device Informations</h3>
 			<div class="jumbotron">
 			<?php $devinfo=$useragent=$_SERVER['HTTP_USER_AGENT'];
 			echo $devinfo;
@@ -52,7 +52,7 @@ require('ip.php');
 			   
 			    <div class="alert alert-danger alert-dismissable">
 			    	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-			    	<b>People still do use Windows phone ? 😂 Well the dev of this page does </b>
+			    	<b>People still do use Windows phone ? 😂 Well the dev of this page does! cool </b>
 			    </div>'
 				<?php	
 			
